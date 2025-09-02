@@ -5,7 +5,8 @@ export default class Carrousel {
     this.e = e;
     this.options = {
       slidesPerView: 1,
-      spaceBetween: 20,
+      direction: 'vertical',
+      //  spaceBetween: 20,
       pagination: {
         el: this.e.querySelector('.swiper-pagination'),
         type: 'bullets',
