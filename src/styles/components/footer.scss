@@ -14,13 +14,53 @@
     width: 100%;
     padding-bottom: 30px;
     border-bottom: 2px solid var(--color-white);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    font-size: #{typo(24px, 40px)};
+    font-weight: bolder;
+    color: var(--color-white);
+    font-family: var(--font-primary);
+    .icon {
+        max-width: 55px;
+        max-height: 55px;
+        min-height: 55px;
+        fill: var(--color-primary);
+    }
 }
 
 .reseaux_sociaux {
-    margin: 0;
     padding: 0;
+    padding-top: 30px;
+    margin: 0;
     justify-content: center;
     align-items: center;
     display: flex;
     gap: 16px;
+    list-style: none;
+}
+
+.reseau {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: rgba($color: #fff, $alpha: 0.1);
+}
+.reseau svg {
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    fill: var(--color-white);
+}
+
+.copyright {
+    color: var(--color-white);
+    margin: 0;
+    padding-top: 30px;
 }
