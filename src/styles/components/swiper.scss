@@ -2,13 +2,19 @@
     width: 100%;
     height: 550px;
     margin: 0;
+
+    @media screen and (max-width: $breakpoint-ml) {
+        height: 550px;
+    }
 }
 .swiper-slide {
     margin-bottom: 0;
+    height: 100%;
 }
 .swiper img {
     object-fit: cover;
     width: 100%;
+    height: 100%;
 }
 
 .gallerie .wrapper {

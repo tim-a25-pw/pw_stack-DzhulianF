@@ -2,6 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
+    @media screen and (max-width: $breakpoint-ml) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    @media screen and (max-width: $breakpoint-sm) {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 .athletes .wrapper {
     text-align: right;
@@ -71,8 +79,10 @@
 
     .card_media {
         height: 100%;
+        width: 100%;
         img {
             height: 100%;
+            width: 100%;
         }
     }
 }
