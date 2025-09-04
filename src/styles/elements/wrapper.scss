@@ -7,10 +7,10 @@
     margin: 0 auto;
     padding: 0 0;
     @media screen and (max-width: $breakpoint-ml) {
-        max-width: $breakpoint-ml;
+        max-width: $breakpoint-sm;
     }
 
-    @media screen and (max-width: $breakpoint-xs) {
+    @media screen and (max-width: $breakpoint-sm) {
         max-width: $breakpoint-xs;
     }
 }

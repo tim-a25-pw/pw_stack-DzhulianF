@@ -100,7 +100,7 @@
         }
     }
 
-    @media screen and (min-width: $breakpoint-md) {
+    @media screen and (min-width: $breakpoint-ml) {
         display: block;
         background: unset;
         position: relative;
@@ -129,10 +129,10 @@
         color: inherit;
     }
 
-    @media screen and (min-width: $breakpoint-md) {
+    @media screen and (min-width: $breakpoint-ml) {
         font-size: var(--font-size-content);
         font-weight: bold;
-        color: var(--color-white);
+        color: var(--color-black);
         position: relative;
         text-transform: none;
 
