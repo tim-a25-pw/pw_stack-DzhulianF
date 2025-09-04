@@ -121,7 +121,7 @@
 
 .nav-primary__item {
     font-size: var(--font-size-h2);
-    color: var(--color-black);
+    color: var(--color-white);
     text-transform: uppercase;
     position: relative;
 
@@ -132,7 +132,7 @@
     @media screen and (min-width: $breakpoint-md) {
         font-size: var(--font-size-content);
         font-weight: bold;
-        color: var(--color-black);
+        color: var(--color-white);
         position: relative;
         text-transform: none;
 

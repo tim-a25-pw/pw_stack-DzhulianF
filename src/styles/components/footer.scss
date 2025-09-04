@@ -51,12 +51,21 @@
     align-items: center;
     border-radius: 100%;
     background-color: rgba($color: #fff, $alpha: 0.1);
+    transition: transform 0.2s ease-out;
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 .reseau svg {
     opacity: 1;
     width: 12px;
     height: 12px;
     fill: var(--color-white);
+    transition: transform 0.2s ease-out;
+
+    &:hover {
+        transform: scale(1.15);
+    }
 }
 
 .copyright {

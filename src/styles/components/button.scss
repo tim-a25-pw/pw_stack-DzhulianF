@@ -4,6 +4,12 @@
     border-radius: 25px;
     font-family: var(--font-primary);
     font-weight: bolder;
+
+    &:hover {
+        text-decoration: none;
+        background-color: var(--color-primary);
+        color: var(--color-white);
+    }
 }
 .conteneur_button {
     margin-top: 30px;
